@@ -1,0 +1,20 @@
+"Astro is one of the most notable projects of the year 2021. 
+Astro is a tool to build web sites that load faster because they ship less JavaScript."
+- Risingstars
+
+To build a faster website you need to ship less code. Astro is a kind of static site builder that delivers 
+lightning-fast performance with a modern developer experience.
+
+With Astro you can build your site using your own framework like React, Vue or just HTML + JavaScript. 
+Astro then renders the entire page to static HTML, removing all JavaScript from your final build by default.
+
+If there is a real need for some Javscript component, Astro loads it when it's visible.
+
+It supports all the npm packages, CSS modules etc and is SEO enabled.
+ 
+Astro works like a static site generator which means it will generate a static HTML site for you during build, 
+with almost no Javascript. It's pretty obvious that this will be much faster compared to a site with Javascript.
+
+When a component, like add to cart or carousel, needs some JavaScript, it loads that component. 
+The rest of your site continues to exist as static, lightweight HTML. This new approach to web architecture 
+is called islands architecture.
